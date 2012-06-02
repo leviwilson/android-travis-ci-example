@@ -3,6 +3,7 @@ package com.leviwilson.android;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import com.leviwilson.android.R;
 
 public class HelloAndroidActivity extends Activity {
 
