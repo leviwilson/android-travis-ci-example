@@ -5,3 +5,4 @@ before_script:
   - export ANDROID_HOME=~/builds/leviwilson/android-travis-ci-example
   - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
   - android update sdk --filter 1,2,4,9 --no-ui --force
+script: "mvn install"
